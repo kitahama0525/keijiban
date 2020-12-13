@@ -1,0 +1,112 @@
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+.l-section {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+
+.l-container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width:1200px) {
+  .l-container {
+    width: auto;
+    max-width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.c-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #483d8b;
+  border: 2px solid #483d8b;
+  font-weight: 700;
+  padding: 24px 24px;
+  width: 100%;
+  max-width: 384px;
+  transition: all 0.3s ease;
+}
+
+.c-button:hover {
+  background-color: #fff;
+  color: #483d8b;
+}
+
+.c-result__block {
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.c-result__head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+
+.c-result__name {
+  font-size: 14px;
+}
+
+.c-result__date {
+  font-size: 14px;
+  margin-left: 20px;
+  color: #9a9a9a;
+}
+
+.c-result__text {
+  font-size: 14px;
+}
+
+.c-result__button {
+  text-align: center;
+  margin-top: 64px;
+}
+
+.c-form {
+  max-width: 800px;
+  margin: 62px auto;
+}
+
+.c-form__block {
+  width: 100%;
+}
+
+.c-form__block:not(:first-child) {
+  margin-top: 40px;
+}
+
+.c-form__block label {
+  width: 100%;
+  display: block;
+}
+
+.c-form__block label p {
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+
+.c-form__block label input,
+.c-form__block label textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.c-form__submit {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.c-form__submit .c-button {
+  font-size: 20px;
+  cursor: pointer;
+}
